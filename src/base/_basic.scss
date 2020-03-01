@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap');
+
+/* hero */
+.navbar-brand {
+  img {
+  width: 289px;
+  height: 32px;
+  }
+}
+
+.navbar {
+  padding-top: 25px;
+}
+
+.navbar-colors {
+  li {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    .nav-link {
+      color: black !important;
+      &:hover {
+        border-radius: 18px;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        background-color: transparent;
+      }
+    }
+  }
+}
+
+.hero-title {
+  color: #000000;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  margin-top: 50px;
+  @media (max-width: 800px) {
+    font-size: 30px;
+  }
+}
+
+.hero-additional-text {
+  color: #949494;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.hero-link {
+  display: block;
+  margin: 0 auto;
+  width: 205px;
+  height: 50px;
+  a {
+    display: inline-block;
+    padding: 5px 45px;
+    background: linear-gradient(74deg, #49007c 0%, #e70088 100%);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+.hero-bg {
+  width: 100%;
+  background: url("../../src/img/hero-bg.jpg") no-repeat center;
+  height: 100vh;
+  margin-top: -150px;
+  padding-top: 150px;
+  @media (max-width: 1200px) {
+    padding-top: 50px;
+    margin-top: -50px;
+  }
+}
+
+.section-hero {
+  &:after {
+    content: url("../../src/img/2-layers.png");
+    display: block;
+    margin: 75px auto 50px;
+    text-align: center;
+  }
+}
+
+/* Advantages section */
+
+.advantages {
+  padding: 75px 50px;
+  h2 {
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 36px;
+    color: white;
+    margin-bottom: 30px;
+    @media (max-width: 767px) {
+      font-size: 30px;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+    span {
+      font-weight: 700;
+    }
+  }
+  p {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 30px;
+    @media (max-width: 767px) {
+      font-size: 14px;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+  }
+  div {
+    width: 205px;
+    height: 50px;
+    a {
+      display: inline-block;
+      padding: 5px 45px;
+      background: linear-gradient(74deg, #49007c 0%, #e70088 100%);
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 36px;
+      text-align: center;
+      border-radius: 30px;
+      color: white;
+      text-decoration: none;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}
+
+.advantages-section__field-advantage-link {
+  @media (max-width: 767px) {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.first-advantage {
+  width: 100%;
+  background: url("../../src/img/Layer_8.jpg");
+}
+
+.second-advantage {
+  width: 100%;
+  background: url("../../src/img/Layer_7.jpg");
+}
+
+.advantages-column {
+  margin-bottom: 50px;
+  @media (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* what we do */
+
+.what-we-do-title {
+  color: #000000;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.what-we-do-img {
+  margin-right: 30px;
+}
+
+.what-we-do-link {
+  display: block;
+  margin: 0 auto 50px;
+  width: 205px;
+  height: 50px;
+  white-space: nowrap;
+  a {
+    display: inline-block;
+    padding: 5px 45px;
+    background: linear-gradient(74deg, #49007c 0%, #e70088 100%);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+/* Portfolio */
+
+.hide-link {
+  display: block;
+}
+
+.portfolio-items__field-portfolio-img {
+  img {
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
+
+
+
+/* about us */
+
+.section-bg {
+  padding: 100px 0;
+  background: url("../../src/img/Layer_15.png");
+}
+
+.title-and-desc {
+  text-align: center;
+}
+
+.about-us-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 36px;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.about-us-title-and-desc__field-about-us-desc {
+  color: #949494;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 100px;
+}
+
+.employee-name {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin: 15px 0;
+}
+
+.employee-desc {
+  color: #949494;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.about-us-btn {
+  display: block;
+  margin: 0 auto;
+  width: 205px;
+  height: 50px;
+  white-space: nowrap;
+  a {
+    display: inline-block;
+    padding: 5px 45px;
+    background: linear-gradient(74deg, #49007c 0%, #e70088 100%);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+/* map */
+
+.map {
+  position: relative;
+}
+
+.pin-location {
+  position: absolute;
+  top: 200px;
+  left: 850px;
+}
